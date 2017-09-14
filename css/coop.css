@@ -1,0 +1,110 @@
+body {
+  font-size: 14px;
+  color: #C0C0C0;
+  background-color: #2C3531;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+  color: #D1E8E2;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #116466;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/malcolm.png') no-repeat;
+  width: 75px;
+  height: 100px;
+  margin: 0px 5px 0px 5px;
+}
+
+#ceis-img {
+  background: url('../images/ceis.jpg') no-repeat;
+  width: 700px;
+  height: 200px;
+  margin: auto;
+}
+
+#gfht-img {
+  background: url('../images/gfht.png') no-repeat;
+  width: 575px;
+  height: 200px;
+  margin: auto;
+}
+
+#skyjack-img {
+  background: url('../images/skyjack.png') no-repeat;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+}
+
+/*.navbar-brand {
+  padding-top: 25px;
+}*/
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #D1E8E2;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 10px;
+  position:absolute;
+  text-align:center;
+  padding: 10px 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #D1E8E2;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #D1E8E2;
+  color: #000
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #006400;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#uog-img {
+  background: url('../images/uog.png') no-repeat;
+  width: 200px;
+  height: 65px;
+  margin: 2px 2px 2px 2px;
+}
+
+/* END FOOTER */

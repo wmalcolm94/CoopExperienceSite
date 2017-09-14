@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>William Malcolms Co-op Experiences</title>
+    <link rel="icon" href="images/favicon.ico" type="image/png" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/coop.css">
+</head>
+<body ng-app="app">
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="navbar-header">
+                <a ui-sref="/" class="pull-left visible-md visible-lg"><div id="logo-img" alt="Logo image"></div></a>
+                <div class="navbar-brand">
+                    <a ui-sref="/"><h1>William Malcolm's Co-op</h1></a>
+                </div>
+                <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li><a ui-sref="home">Home</a></li>
+                    <li><a ui-sref="comp-edge">Competitive Edge</a></li>
+                    <li><a ui-sref="gfht">GFHT</a></li>
+                    <li><a ui-sref="skyjack">Skyjack</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<ui-view></ui-view>
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="about" class="col-sm-4">
+                    <h3>About:</h3>
+                    <a href="http://www.uoguelph.ca/"><div id="uog-img" alt="UoG image"></div></a>
+                    Bachelor of Computing <br/>
+                    Major in Software Engineering<br/>
+                    <hr class="visible-xs">
+                </section>
+                <section id="skills" class="col-sm-4">
+                    <h3>Skills:</h3>
+                    C# Programming Language<br/>
+                    SQL Server <br/>
+                    Requirements Gathering<br/>
+                    Software Design<br/>
+                    Software Maintenance<br/>
+                    Data Cleansing</br>
+                    <hr class="visible-xs">
+                </section>
+                <section id="contact" class="col-sm-4">
+                    <h3>Contact:</h3>
+                    <p>Email: wmalcolm@uoguelph.ca</p>
+                </section>
+            </div>
+            <div class="text-center">
+                &copy; Copyright William Malcolm 2017
+            </div>
+        </div>
+    </footer>
+<!-- libraries -->
+<script src="lib/jquery-2.1.4.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-ui-router.min.js"></script>
+
+<!--modules-->
+<script src="app.js"></script>
+
+<!--controllers-->
+<script src="src/comp-edge/comp-edge.controller.js"></script>
+<script src="src/gfht/gfht.controller.js"></script>
+<script src="src/skyjack/skyjack.controller.js"></script>
+
+</body>
+
+</html>

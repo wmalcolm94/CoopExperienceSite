@@ -1,0 +1,108 @@
+<div class="container" ng-controller="SkyjackController">
+    <div id="skyjack-img" alt="Skyjack Inc"></div>
+    <h2>About Skyjack Inc.</h2>
+    <p>
+        Skyjack is one of many subsidiaries of the Linamar Corporation.  
+        However, they are the only one that does not manufacture car parts, they build scissor lifts, vertical mast lifts, 
+        telehandlers and booms. Skyjack is one of the leading brands in scissor lifts around the world. 
+        Being a part of such a big company was an amazing experience. So amazing in fact, 
+        that I decided to do spend my last three co-op terms there.
+    </p>
+    
+    <h2>Goals</h2>
+    <p>
+        One of the learning goals I had at Skyjack was to come up with better solutions to more complicated problems. 
+        I decided to set this goal for myself because I was looking back at the application I had made over my first term at Skyjack, 
+        and kept noticing algorithms I had made to solve certain problems, that worked, but I felt I could do better. So I wanted to try. 
+        I believe that I achieved this goal, because every new application I developed was better than the last, 
+        and I was able to design and develop the next one more efficiently than the previous.
+    </p>
+    <p>
+        Another one of my goals was to create larger scale applications that can communicate with some of the larger business process 
+        applications built by the other developers and applications that are outsourced. 
+        I achieved this goal by working with the data cleansing task mentioned later on, which was really cool to do a larger scale database job,
+        as databases seem to be something that I excel at. <br/>
+        Another way I achieved this goal was to work with some of the applications that were outsourced to bigger software development companies.  
+        I worked on some additions to an API created by another Skyjack developer to contact the giant production database which was an Advantage database, 
+        and created some new features in the API so I could use them in various applications I was building.
+    </p>
+    <p>
+        Yet another goal I had for myself was to try to improve my time management skills to more effectively complete the projects I'm working on.
+        At all times I had a list of projects I was working on, and when items in these projects needed to be completed.  
+        One of the ways I achieved this goal was to try and have weekly meetings with people from each project to give them a status update on the progress that had been made since the last meeting.  
+        I found this method very effective, and will hopefully continue to use it after school.
+    </p>
+    <p>
+        The last goal I had for myself was to improve my limited knowledge of website development.  One of the ways I did this at Skyjack, 
+        was to work on the various API's that were used in the company to connect to outsourced applications. 
+        This helped to improve my knowledge of sending data through the internet to a database, and how that whole interaction works behind the scenes. 
+        However, I did not get a whole lot of front end web development experience, which in turn, is why I decided to actually build a website for this report instead of just doing a word press site.
+    </p>
+
+    <h2>Job Description</h2>
+    <p>
+        My job as an Application Developer Co-op was to design and develop applications to help solve business problems within the company. 
+        This provided me with a unique opportunity to develop good requirements gathering techniques, 
+        since the traditional customers who would be purchasing the application, were actually my co-workers. 
+        This meant that I had easy access to customer feedback and they could easily follow along the progress that I was making on their application.
+    </p> 
+    <p>
+        The other part of my job was developing the application. 
+        To do this, I used the Windows Presentation Framework (WPF) to build Desktop Applications for users. 
+        The WPF apps are built with C# to create the functionality of the application, xaml to design the user interface, 
+        and a SQL Server, or SQLite backend based on the requirements of the application. 
+        WPF also encourages the use of the Model-View-ViewModel (MVVM) design pattern, 
+        which as you can probably guess is very similar to the Model View Controller design patter, 
+        where the ViewModel functions similarly to the Controller. 
+    </p>
+    <p>
+        During my first term at Skyjack I started by working with the Health and Safety manager, and his co-op student, 
+        to reinvent the way they completed Workplace Insepctions around the two plants located in Guelph. 
+        At the time they just had an excel file that they entered all of their findings into. 
+        I still remember the first demo that the other co-op student and I did for the manager, 
+        he was so excited and wanted to start using it immediately. Unfortunately for us, 
+        it was still in the early stages of design at that time, so we still had some work to do.
+    </p>
+    <p>
+        By the end of the first term, I had completed development on the Workpalce Inspection Application, 
+        and lots of people were actually using to complete their Workplace Inspections, this was an amazing feeling, 
+        to have spent 4 months working on a single project and by the end have something that could benefit a lot of people in an organization.
+    </p>
+    <p>
+        My second term at Skyjack started off really well.  I actually found out that SQLite had a lot of concurrency problems with data access. 
+        So my first task during this term was to convert my SQLite database to Sql Server.  This was a really neat experience, 
+        and it made me realize that not all SQL languages are the same.  The whole conversion process took me a few days, as I had to recreate the database, 
+        with all of the table relationships, and then import all of the data that had been entered into the application in the four months since I had worked there.
+    </p>
+    <p>
+        After I completed the database migration, the next phase in the health and safety project was to build an Audit application.  
+        This Audit appliation was built with the same tools as the Workplace Inspection.  However it started with a Sql Server backend, 
+        and connected to the same database as the Workplace Inspection app.  It also began on a WPF template that one of the other developers at Skyjack made.
+        This exponentially increased the development time.
+    </p>
+    <p>
+        My third term at Skyjack consisted of a Data Migration project not tied to the Health and Safety project.  
+        This data migration included mapping and massaging skyjack data from a corporate database to import into Skyjack Specific tables.  
+        I separated out all of the tables, and moved our skyjack specific data to their own tables. 
+        Once this was completed and verified by the production and quality departments, 
+        I edited the Sql Server Integration Services (SSIS) package to use the new skyjack tables.
+    </p>
+    <p>
+        After this I started the last two parts of the Health and Safety project.  This included a Incident Report application, 
+        which again would be added to the same database, and use another version of the template to speed up the development time and add new nice to have features.
+        This application also included a graphing portion that could map the number of incidents that occured to the various drop downs in the application, 
+        within a specified date range.
+    </p>
+    <p>
+        The last part of the Health and Safety project that I completed was an Admin Overarching type of Application.  
+        It let the user search for a specific person, date range, plant, or location in a plant, 
+        and let the user see everything that had occurred in either of the applications with to what ever filter they specified.
+        This was something that management was very pleased with and would help organize their reporting a lot.
+    </p>
+    <h2>Conclusions</h2>
+    <p>
+        I enjoyed my time at Skyjack very much and had an amazing time putting together the Health and Safety project.  
+        The atmospehere at Skyjack was awesome and I really felt as though I was a part of the IT department, not just a regular co-op student.
+        I would definitely consider working at Skyjack full time if a position becomes available in the future!
+    </p>
+</div>
